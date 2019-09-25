@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+   
+     <parameter name = "strValue" value="Ramakrishna Bora"/>
+     <parameter name = "intValue" value="76859"/>
+     <parameter name = "longValue" value="99874567456"/>
+  
+    <classes>
+      <class name="test.TestNGDemo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

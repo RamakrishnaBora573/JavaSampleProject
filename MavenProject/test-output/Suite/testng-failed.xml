@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="reRunFailedTestCase.RetryListenerClass"/>
+  </listeners>
+  <test name="Test2(failed)">
+    <classes>
+      <class name="reRunFailedTestCase.Test2">
+        <methods>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- reRunFailedTestCase.Test2 -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
